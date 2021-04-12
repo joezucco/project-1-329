@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Inter&display=swap");
 
-* {
+/* * {
     margin:0;
     padding:0;
     box-sizing:border-box
@@ -21,7 +21,7 @@ p {
 
 /* HEADER */
 
-header nav {
+/* header nav {
     display:flex;
     height: 90px;
     font-family: "Inter", sans-serif;
@@ -41,11 +41,11 @@ header nav h1 {
 header nav #menu {
     display:flex;
     /* width: 300px; */
-    padding: 5px;
+/* padding: 5px;
     background-color:salmon;
     border: 1px solid black;
-}
+} */
 
-header nav div a {
+/* header nav div a {
     color:springgreen;
-}
+} */
