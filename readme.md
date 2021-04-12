@@ -21,7 +21,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-I intend to create a simple, sleek, easy-to-read portfolio that seemlessly delivers my content to the user. It will employ Bootstrap and Flexbox to create a dynamic and responsive web design to better showcase my work to the world. My background in design will 
+I intend to create a simple, sleek, easy-to-read portfolio that seemlessly delivers my content to the user. It will employ Bootstrap and Flexbox to create a dynamic and responsive web design to better showcase my work to the world. Given my background in design, my website will be stylish and aesthetically pleasing. 
 
 ## Google Sheet
 
