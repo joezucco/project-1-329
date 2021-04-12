@@ -44,9 +44,9 @@ Search and compare at least 3 profile web sites. Record your findings in the tab
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
 
-- [Mobile] | (https://res.cloudinary.com/dnfumu7j3/image/upload/v1618100630/mobile_wireframe_kmqeiv.png)
-- [Desktop] | (https://res.cloudinary.com/dnfumu7j3/image/upload/v1618100629/desktop_wireframe_slamwf.png)
-- [Tablet] | (https://res.cloudinary.com/dnfumu7j3/image/upload/v1618100630/tablet_wireframe_c500cg.png)
+- [Mobile] | (https://res.cloudinary.com/dnfumu7j3/image/upload/v1618250388/mobile_fxh9co.png)
+- [Desktop] | (https://res.cloudinary.com/dnfumu7j3/image/upload/v1618250388/desktop_hyxuso.png)
+- [Tablet] | (https://res.cloudinary.com/dnfumu7j3/image/upload/v1618250387/tablet_mawtum.png)
 
 ## Time/Priority Matrix
 
