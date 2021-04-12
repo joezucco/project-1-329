@@ -132,5 +132,5 @@ Use this section to list of all major issues encountered and their resolution.
 
 #### SAMPLE.....
 
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier  
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR** Could not get Bootstrap navbar to function
+**Solution** Realized I had to put script tags after running the html
