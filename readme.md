@@ -77,6 +77,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Add Spotify "Now Playing" widget to my footer
 - Find way to implement pretty typeography into design
+- Add full accessibility 
 
 ## Functional Components
 
