@@ -94,10 +94,10 @@ Time frames are also key in the development cycle. You have limited time to code
 | Regular Nav             |    H     |      1hr       |     hr      |
 | Adding Form             |    M     |     1.5hr      |     hr      |
 | Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      4hrs      |     hr      |
+| Working with API        |    H     |      6hrs      |     hr      |
 | Responsive              |    H     |      3hr       |     hr      |
 | Social Media Icons      |    L     |      1hr       |     hr      |
-| Total                   |    H     |    20.5hrs     |     hrs     |
+| Total                   |    H     |    22.5hrs     |     hrs     |
 
 #### PostMVP
 
