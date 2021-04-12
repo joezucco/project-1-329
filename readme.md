@@ -113,7 +113,7 @@ Time frames are also key in the development cycle. You have limited time to code
 
 ## Additional Libraries
 
-Use this section to list all supporting libraries and thier role in the project.
+jQuery may be used to style HTML and work with rendering content. Bootstrap may be used to style HTML.
 
 ## Code Snippet
 
