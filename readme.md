@@ -114,7 +114,7 @@ Time frames are also key in the development cycle. You have limited time to code
 
 ## Additional Libraries
 
-jQuery may be used to style HTML and work with rendering content. Bootstrap may be used to style HTML.
+Have used Bootstrap's navbar template for my navigation/responsive hamburger icon and dropdown.
 
 ## Code Snippet
 

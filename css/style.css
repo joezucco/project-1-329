@@ -25,8 +25,10 @@
 }
 .nav-link {
   color: rgb(44, 44, 44) !important;
-  font-family: "Inter", sans-serif;
-  letter-spacing: 5px;
+  font-family: "Archivo", sans-serif;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-size:20px;
   margin: 20px;
 }
 
@@ -38,6 +40,7 @@ font-family: "Inter", sans-serif;
 
 h1 {
 font-family: "Archivo", sans-serif;
+text-align: center;
 }
 
 .container * {
@@ -47,7 +50,10 @@ font-family: "Archivo", sans-serif;
 
 .container {
     display: flex;
+    width:100%;
+    height:auto;
     flex-flow: row wrap;
+    align-items: center;
     padding: 10px;
     border: 1px solid red;
     
@@ -56,22 +62,16 @@ font-family: "Archivo", sans-serif;
 
 
 .mePic {
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
-.item1 {
+.box {
     border: 1px solid black;
-    width: 360px;
     
 }
 
-.item2 {
-    order: 2;
-    border: 1px solid hotpink;
-    width: 500px;
-    
-}
 
+/* FOOTER */
 footer {
     background-color:  rgb(245, 245, 245);
 }
