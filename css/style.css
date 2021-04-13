@@ -1,18 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Inter&display=swap");
 /* BOOTSTRAP NAV OVERRIDES */
 
+html {
+  scroll-behavior: smooth;
+}
+
 #headnav {
   background-color: rgb(245, 245, 245) !important;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.2);
 }
 
 #brand {
   font-family: "Archivo", sans-serif !important;
-  font-weight: bold;
   padding: 20px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 #hamburger {
@@ -21,57 +24,110 @@
   border: 1px solid rgb(255, 160, 116);
 }
 #navItems {
-    padding: 0!important;
+  padding: 0 !important;
 }
 .nav-link {
   color: rgb(44, 44, 44) !important;
   font-family: "Archivo", sans-serif;
   letter-spacing: 2px;
   text-transform: lowercase;
-  font-size:20px;
+  font-size: 20px;
   margin: 20px;
 }
 
 body {
-background: rgb(241,203,148);
-background: radial-gradient(circle, rgba(241,203,148,1) 0%, rgba(207,232,200,1) 100%);
-font-family: "Inter", sans-serif;
+  background: rgb(241, 203, 148);
+  background: radial-gradient(
+    circle,
+    rgba(241, 203, 148, 1) 0%,
+    rgba(207, 232, 200, 1) 100%
+  );
+  font-family: "Inter", sans-serif;
+  color: black;
+margin:auto;
 }
 
 h1 {
-font-family: "Archivo", sans-serif;
-text-align: center;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+}
+
+main {
+    direction: vertical;
 }
 
 .container * {
-    padding: 10px;
-    margin: 10px;
+  padding: 5px;
+  margin: 10px;
 }
+
 
 .container {
-    display: flex;
-    width:100%;
-    height:auto;
-    flex-flow: row wrap;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid red;
-    
+  display: flex;
+  max-width: 100%;
+  padding-bottom: -100px;
+  /* border: 1px solid red; */
 }
 
-
-
-.mePic {
-    border-radius: 15px;
+img {
+  border-radius: 15px;
 }
 
-.box {
-    border: 1px solid black;
-    
+.box1 {
+  /* display: flex;
+flex-wrap: wrap; */
+
+  margin: auto;
+  /* border: 1px solid black; */
+  width:340px;
+}
+.box2 {
+  /* display: flex;
+  flex-direction: row; */
+  text-align: center;
+  margin: auto;
+    height: 400px;
+    width:430px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+}
+
+article {
+  font-size: 1rem;
 }
 
 
 /* FOOTER */
+
+
 footer {
-    background-color:  rgb(245, 245, 245);
+  display:flex;
+  padding-top: -50px;
+  padding: 10px;
+  background-color: rgb(245, 245, 245);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.2);
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* @media only screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
