@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////
-// Get data from Google Sheets
+// FETCH DATA FROM GOOGLE SHEETS
 /////////////////////////////////////////////////
 $.ajax(
   "https://spreadsheets.google.com/feeds/list/1CZy5ARuZPmpNls7UiGMzUrNoBKb6aWbpNZcNUI6L6gI/1/public/full?alt=json"
@@ -19,8 +19,10 @@ $.ajax(
       };
     });
     console.log(projects);
+
+
     /////////////////////////////////////////////////
-    // jQuery to render your projects below
+    // JQUERY RENDERING
     /////////////////////////////////////////////////
       
     
