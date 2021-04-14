@@ -6,26 +6,34 @@ $.ajax(
 )
   //.then for when the data when arrives
   .then((data) => {
-    console.log(data);
 
     // Map over the data, generate a simpler dataset
     const projects = data.feed.entry.map((item) => {
       return {
-        description: item.gsx$description.$t,
-        giturl: item.gsx$giturl.$t,
-        project: item.gsx$project.$t,
-        image: item.gsx$image.$t,
-        liveurl: item.gsx$liveurl.$t,
+        name: item.gsx$name.$t,
+        git: item.gsx$git.$t,
+        live: item.gsx$live.$t,
+        img: item.gsx$img.$t,
       };
     });
-    console.log(projects);
 
 
     /////////////////////////////////////////////////
     // JQUERY RENDERING
     /////////////////////////////////////////////////
       
+    const final = projects.map((project) => {
+      return `
+      <my-card name=${project.name} git=${project.git} live=${project.live} img=${project.img}></my-card>
+      `
+    })
+
+    const $section = $('section')
+
+    $section.html(final.join(""))
     
+    
+
 
     
   })
