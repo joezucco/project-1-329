@@ -14,6 +14,7 @@ $.ajax(
         git: item.gsx$git.$t,
         live: item.gsx$live.$t,
         img: item.gsx$img.$t,
+        description: item.gsx$description.$t,
       };
     });
 
@@ -24,7 +25,7 @@ $.ajax(
       
     const final = projects.map((project) => {
       return `
-      <my-card name=${project.name} git=${project.git} live=${project.live} img=${project.img}></my-card>
+      <my-card name=${project.name} git=${project.git} live=${project.live} img=${project.img} description=${project.description}></my-card>
       `
     })
 

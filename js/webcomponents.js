@@ -15,9 +15,9 @@ class MyCard extends HTMLElement {
 
     this.innerHTML = `
         <sl-card>
-        <h1>${name}</h1>
+        <h2 slot="header">${name}</h2>
         <img src=${img} alt=${name} slot="image">
-        <sl-button-group>
+        <sl-button-group slot="footer">
         <a href=${git}><sl-button>Left</sl-button></a>
         <a href=${live}><sl-button>Right</sl-button></a>
         </sl-button-group>

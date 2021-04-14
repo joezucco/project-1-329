@@ -103,6 +103,21 @@ section {
   margin: 10px auto;
 }
 
+::part(footer){
+  display:flex;
+  justify-content: center;
+}
+
+sl-button::part(base) {
+  margin:6px;
+}
+
+sl-button-group::part(base){
+  display:flex;
+  justify-content: space-around;
+  wdith: 100%;
+}
+
 /* FOOTER */
 footer {
   padding-top: -50px;
