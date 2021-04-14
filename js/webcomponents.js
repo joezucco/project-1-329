@@ -4,18 +4,23 @@
 // Web Components Classes Here
 //////////////////////////////////
 
-// class TemplateExample extends HTMLElement {
-//     constructor(){
-//         super()
+class MyCard extends HTMLElement {
+    constructor(){
+        super()
 
-//         this.innerHTML = `<h1>Hello World</h1>`
-//     }
-// }
+        const name = this.getAttribute("name")
+        const git = this.getAttribute("git");
+        const live = this.getAttribute("live");
+        const image = this.getAttribute("image");
+
+        console.log(name, git, live, image)
+    }
+}
 
 
 
-/////////////////////////////////
-// Register the HTML Tag here
-/////////////////////////////////
+///////////////////////////////
+// Register the HTML Tag
+///////////////////////////////
 
-// customElements.define("template-example", TemplateExample)
+customElements.define("my-card", MyCard)

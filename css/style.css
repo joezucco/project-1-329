@@ -53,7 +53,7 @@ h1 {
 }
 
 main {
-    height: 1027px;
+    height: 1300px;
     direction: vertical;
     border: 2px solid hotpink;
 }
@@ -63,11 +63,11 @@ main {
   margin: 10px;
 }
 
-
 .container {
   display: flex;
   max-width: 100%;
 }
+
 
 img {
   border-radius: 15px;
