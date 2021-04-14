@@ -93,11 +93,11 @@ Time frames are also key in the development cycle. You have limited time to code
 | Project Previews        |    H     |      4hr       |     hr      |
 | Regular Nav             |    H     |      1hr       |     2hr      |
 | Adding Form             |    M     |     1.5hr      |     hr      |
-| Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      6hrs      |     hr      |
+| Other sections and flex |    M     |      3hr       |     2hr      |
+| Working with API        |    H     |      6hrs      |     2hr      |
 | Responsive              |    H     |      3hr       |     4hr      |
 | Social Media Icons      |    L     |      1hr       |     hr      |
-| Cards                   |	   M	 |      2hr       |             |
+| Cards                   |	   M	 |      2hr       |     hr      |
 | Total                   |    H     |    22.5hrs     |     hrs     |
 
 #### PostMVP
@@ -110,7 +110,8 @@ Time frames are also key in the development cycle. You have limited time to code
 | Materialize           |    H     |      4hr       |     -hr     | 
 | Bootstrap             |    H     |      4hr       |     hr      |
 | Make own icon         |    L     |      4hr       |     hr      |
-| Spotify Widget        |	 L	   |	  1hr       |     hrs
+| Spotify Widget        |	 L	   |	  1hr       |     hrs	  |
+| Jump         |	 L	   |	  1hr       |     hrs	  |
 | Total                 |    H     |     20hrs      |     hrs     |
 
 ## Additional Libraries

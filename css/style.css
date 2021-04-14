@@ -115,7 +115,7 @@ sl-button::part(base) {
 sl-button-group::part(base){
   display:flex;
   justify-content: space-around;
-  wdith: 100%;
+  width: 100%;
 }
 
 /* FOOTER */

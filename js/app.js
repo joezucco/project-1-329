@@ -6,7 +6,6 @@ $.ajax(
 )
   //.then for when the data when arrives
   .then((data) => {
-
     // Map over the data, generate a simpler dataset
     const projects = data.feed.entry.map((item) => {
       return {
@@ -18,27 +17,22 @@ $.ajax(
       };
     });
 
-
     /////////////////////////////////////////////////
     // JQUERY RENDERING
     /////////////////////////////////////////////////
-      
+
     const final = projects.map((project) => {
+      console.log(project);
       return `
-      <my-card name=${project.name} git=${project.git} live=${project.live} img=${project.img} description=${project.description}></my-card>
-      `
-    })
+      <my-card name=${project.name}  img=${project.img} live=${project.live} description=${project.description} git=${project.git}></my-card>
+      `;
+    });
 
-    const $section = $('section')
+    const $section = $("section");
 
-    $section.html(final.join(""))
-    
-    
-
-
-    
+    $section.html(final.join(""));
   })
-    
+
   //.catch in case of an error
   .catch((error) => {
     console.error(error);
