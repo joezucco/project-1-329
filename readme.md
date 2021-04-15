@@ -97,7 +97,7 @@ Time frames are also key in the development cycle. You have limited time to code
 | Working with API        |    H     |      6hrs      |     2hr     |
 | Responsive              |    H     |      3hr       |     4hr     |
 | Social Media Icons      |    L     |      1hr       |     1hr     |
-| Cards                   |	   M	 |      2hr       |     hr      |
+| Cards                   |	   M	 |      2hr       |     4hr      |
 | Total                   |    H     |    22.5hrs     |     hrs     |
 
 #### PostMVP
