@@ -89,14 +89,14 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component               | Priority | Estimated Time | Actual Time |
 | ----------------------- | :------: | :------------: | :---------: |
-| Hamburger               |    H     |      3hr       |     .5hr      |
-| Project Previews        |    H     |      4hr       |     hr      |
-| Regular Nav             |    H     |      1hr       |     2hr      |
-| Adding Form             |    M     |     1.5hr      |     hr      |
-| Other sections and flex |    M     |      3hr       |     2hr      |
-| Working with API        |    H     |      6hrs      |     2hr      |
-| Responsive              |    H     |      3hr       |     4hr      |
-| Social Media Icons      |    L     |      1hr       |     hr      |
+| Hamburger               |    H     |      3hr       |     .5hr    |
+| Project Previews        |    H     |      4hr       |     1hr     |
+| Regular Nav             |    H     |      1hr       |     2hr     |
+| Adding Form             |    M     |     1.5hr      |     1hr     |
+| Other sections and flex |    M     |      3hr       |     2hr     |
+| Working with API        |    H     |      6hrs      |     2hr     |
+| Responsive              |    H     |      3hr       |     4hr     |
+| Social Media Icons      |    L     |      1hr       |     1hr     |
 | Cards                   |	   M	 |      2hr       |     hr      |
 | Total                   |    H     |    22.5hrs     |     hrs     |
 
@@ -111,7 +111,7 @@ Time frames are also key in the development cycle. You have limited time to code
 | Bootstrap             |    H     |      4hr       |     hr      |
 | Make own icon         |    L     |      4hr       |     hr      |
 | Spotify Widget        |	 L	   |	  1hr       |     hrs	  |
-| Jump         |	 L	   |	  1hr       |     hrs	  |
+| Jump Scroll        	|	 L	   |	  1hr       |     hrs	  |
 | Total                 |    H     |     20hrs      |     hrs     |
 
 ## Additional Libraries

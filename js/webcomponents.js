@@ -25,7 +25,7 @@ class MyCard extends HTMLElement {
         <a href=${live}><sl-button>Live</sl-button></a>
         <p>${description}</p>
         </sl-button-group>
-        </slcard>
+        </sl-card>
         `;
   }
 }
