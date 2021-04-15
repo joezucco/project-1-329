@@ -104,14 +104,14 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: |
-| Project Hover         |    L     |      3hr       |     -hr     |
+| Project Hover         |    L     |      3hr       |     hr     |
 | Banner letters wiggle |    L     |      1hr       |     hr      |
 | Interactive Banner    |    M     |      4hr       |     hr      |
-| Materialize           |    H     |      4hr       |     -hr     | 
-| Bootstrap             |    H     |      4hr       |     hr      |
+| Materialize           |    H     |      4hr       |     hr     | 
+| Bootstrap             |    H     |      4hr       |     3hr      |
 | Make own icon         |    L     |      4hr       |     hr      |
 | Spotify Widget        |	 L	   |	  1hr       |     hrs	  |
-| Jump Scroll        	|	 L	   |	  1hr       |     hrs	  |
+| Jump Scroll        	|	 L	   |	  1hr       |     10mins  |
 | Total                 |    H     |     20hrs      |     hrs     |
 
 ## Additional Libraries

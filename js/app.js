@@ -24,7 +24,7 @@ $.ajax(
     const final = projects.map((project) => {
       console.log(project);
       return `
-      <my-card name=${project.name}  img=${project.img} live=${project.live} description=${project.description} git=${project.git}></my-card>
+      <my-card name="${project.name}"  img=${project.img} live=${project.live} description="${project.description}" git=${project.git}></my-card>
       `;
     });
 

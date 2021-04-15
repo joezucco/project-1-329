@@ -14,16 +14,16 @@ class MyCard extends HTMLElement {
     const img = this.getAttribute("img");
     const description = this.getAttribute("description");
 
-    console.log(live, git);
+    console.log(name);
 
     this.innerHTML = `
         <sl-card>
         <h2 slot="header">${name}</h2>
         <img src=${img} alt=${name} slot="image">
-        <sl-button-group slot="footer">
-        <a href=${git}><sl-button>Git</sl-button></a>
-        <a href=${live}><sl-button>Live</sl-button></a>
         <p>${description}</p>
+        <sl-button-group slot="footer">
+          <a href=${git}><sl-button>Git</sl-button></a>
+          <a href=${live}><sl-button>Live</sl-button></a>
         </sl-button-group>
         </sl-card>
         `;
