@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joe Zucco</title>
 
+      <script src="https://kit.fontawesome.com/6893d9ceeb.js"></script>
+
     <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
@@ -93,12 +95,24 @@
       </div>
       <h1 class="prjx">Projects</h1>
 
-              <!-- PROJECTS TITLE -->
+              
               <section>
-                
+                <!-- PROJECTS JS IMPORT -->
               </section>
 
-
+<!-- EMAIL FORM -->
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name"></label>
+    <input type="text" name="name" id="full-name" placeholder="Name" required="">
+    <label for="email-address"></label>
+    <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+    <label for="message"></label>
+    <textarea rows="5" name="message" id="message" placeholder="Say hey :)" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
 
         
 
@@ -106,7 +120,12 @@
 
     <!-- FOOTER -->
     <footer>
-      <div>© 2021 joseph zucco</div>
+      <p id="cpy">© 2021 joseph zucco</p>
+      <div id="socials">
+      <a style="color: gray" href="https://github.com/zzzucco"><i id="gh" class="fab fa-github"></i></a>
+      <a style="color: gray" href="https://www.linkedin.com/in/josephzucco"><i id="li" class="fab fa-linkedin"></i></a>
+      <a style="color: gray" href="https://open.spotify.com/user/ly9dbqj5vn3y1hab5bcra2e9f?si=TuiW2tVaROetQ65QLg4ipw"><i class="fab fa-spotify"></i></a>
+      </div>
   </footer>
 
 
