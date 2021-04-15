@@ -17,10 +17,10 @@ class MyCard extends HTMLElement {
     console.log(name);
 
     this.innerHTML = `
-        <sl-card>
+        <sl-card class="card">
         <h2 slot="header">${name}</h2>
-        <img src=${img} alt=${name} slot="image">
-        <p>${description}</p>
+        <img class="cov" src=${img} alt=${name} slot="image">
+        <p class="card-text">${description}</p>
         <sl-button-group slot="footer">
           <a href=${git}><sl-button>Git</sl-button></a>
           <a href=${live}><sl-button>Live</sl-button></a>

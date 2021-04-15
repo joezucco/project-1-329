@@ -58,6 +58,10 @@ body {
   text-align: center;
 }
 
+#i-know {
+  font-size: 70px;
+}
+
 .container * {
   padding: 5px;
   margin: 10px;
@@ -108,16 +112,38 @@ section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;
+  row-gap: 10px;
+  column-gap: 10px;
+  /* width: 100%;
+  height: 100%; */
   margin-bottom: 80px;
   border: 1px solid black;
 }
 
-my-card h2 {
+sl-card.card {
+display:flex;
+justify-content: space-around;
+border: 1px solid rgb(133, 133, 133);
+  margin: 10px;
+    width:270px;
+    height:434px;
+    align-items: center;
+  /* position:relative; */
+}
+
+
+.card h2 {
   flex: 1;
-  max-width: 25%;
   font-size: 18px;
 }
+
+img .cov{
+  background-size: fill;
+}
+
+p .card-text {
+  font-size: px;
+} 
 
 /* FOOTER */
 footer {
@@ -126,8 +152,6 @@ footer {
   background-color: rgb(247, 247, 247);
   height: 66px;
   padding: 10px;
-  /* border-top-left-radius: 5px;
-  border-top-right-radius: 5px; */
   box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.1);
 }
 
