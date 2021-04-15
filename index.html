@@ -101,19 +101,26 @@
               </section>
 
 <!-- EMAIL FORM -->
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+
+<div id="ctcform">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkapkkd" method="post">
   <fieldset id="fs-frm-inputs">
+    <div class="form-style">
     <label for="full-name"></label>
     <input type="text" name="name" id="full-name" placeholder="Name" required="">
+  </div>
+<div class="form-style">
     <label for="email-address"></label>
     <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+</div>
+  <div clas="form-style">
     <label for="message"></label>
     <textarea rows="5" name="message" id="message" placeholder="Say hey :)" required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-  </fieldset>
-  <input type="submit" value="Submit">
+  </div>
+  <input class="sbmt" type="submit" value="Submit">
 </form>
-
+</div>
         
 
   </main>

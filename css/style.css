@@ -3,10 +3,7 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  position: relative;
+  height:100%;
 }
 
 #headnav {
@@ -40,6 +37,7 @@ body {
 }
 
 body {
+  height:100%;
   background: rgb(241, 203, 148);
   background: radial-gradient(
     circle,
@@ -57,7 +55,6 @@ h1 {
 }
 
 main {
-  height: 1300px;
   direction: vertical;
   border: 2px solid hotpink;
 }
@@ -95,7 +92,15 @@ article {
 }
 
 .prjx {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+form {
+  display:flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+
+  padding: 50px;
 }
 
 section {
@@ -106,10 +111,6 @@ section {
   margin: 10px auto;
 }
 
-/* ::part(footer){
-  display:flex;
-  justify-content: center;
-} */
 
 sl-button::part(base) {
   margin: 6px;
