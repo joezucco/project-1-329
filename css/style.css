@@ -157,9 +157,9 @@ border: 1px solid rgb(133, 133, 133);
   background-size: fill;
 } */
 
-/* p .card-text {
-  font-size: px;
-}  */
+.card-text {
+  font-size: 13px;
+} 
 
 /* FOOTER */
 footer {
