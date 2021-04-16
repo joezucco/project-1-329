@@ -97,17 +97,14 @@ Time frames are also key in the development cycle. You have limited time to code
 | Working with API        |    H     |      6hrs      |     2hr     |
 | Responsive              |    H     |      3hr       |     4hr     |
 | Social Media Icons      |    L     |      1hr       |     1hr     |
-| Cards                   |	   M	 |      2hr       |     4hr      |
-| Total                   |    H     |    22.5hrs     |     hrs     |
+| Cards                   |	   M	 |      2hr       |     4hr     |
+| Total                   |    H     |    22.5hrs     |     17.5hrs |
 
 #### PostMVP
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: |
 | Project Hover         |    L     |      3hr       |     hr     |
-| Banner letters wiggle |    L     |      1hr       |     hr      |
-| Interactive Banner    |    M     |      4hr       |     hr      |
-| Materialize           |    H     |      4hr       |     hr     | 
 | Bootstrap             |    H     |      4hr       |     3hr      |
 | Make own icon         |    L     |      4hr       |     hr      |
 | Spotify Widget        |	 L	   |	  1hr       |     hrs	  |
@@ -122,9 +119,33 @@ Have used Bootstrap's navbar template for my navigation/responsive hamburger ico
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description
 
+Alex's demonstration helped a lot when writing this code, but I am happy to say that I can explain what it is doing.
+
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+class MyCard extends HTMLElement {
+  constructor() {
+    super();
+
+    const name = this.getAttribute("name");
+    const git = this.getAttribute("git");
+    const live = this.getAttribute("live");
+    const img = this.getAttribute("img");
+    const description = this.getAttribute("description");
+
+    console.log(name);
+
+    this.innerHTML = `
+        <sl-card class="card">
+        <h2 slot="header">${name}</h2>
+        <img src=${img} alt=${name} slot="image">
+        <p class="card-text">${description}</p>
+        <sl-button-group class="btn-grp" slot="footer">
+          <a href=${git}><sl-button class="sl-btn">Git</sl-button></a>
+          <a href=${live}><sl-button class="sl-btn">Live</sl-button></a>
+        </sl-button-group>
+        </sl-card>
+        `;
+  }
 }
 ```
 
@@ -136,3 +157,6 @@ Use this section to list of all major issues encountered and their resolution.
 
 **ERROR** Could not get Bootstrap navbar to function
 **Solution** Realized I had to put script tags after running the html
+
+## Video Demonstration
+https://www.youtube.com/watch?v=6wFFFNmOsWw

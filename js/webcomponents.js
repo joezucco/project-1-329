@@ -19,11 +19,11 @@ class MyCard extends HTMLElement {
     this.innerHTML = `
         <sl-card class="card">
         <h2 slot="header">${name}</h2>
-        <img class="cov" src=${img} alt=${name} slot="image">
+        <img src=${img} alt=${name} slot="image">
         <p class="card-text">${description}</p>
-        <sl-button-group slot="footer">
-          <a href=${git}><sl-button>Git</sl-button></a>
-          <a href=${live}><sl-button>Live</sl-button></a>
+        <sl-button-group class="btn-grp" slot="footer">
+          <a href=${git}><sl-button class="sl-btn">Git</sl-button></a>
+          <a href=${live}><sl-button class="sl-btn">Live</sl-button></a>
         </sl-button-group>
         </sl-card>
         `;

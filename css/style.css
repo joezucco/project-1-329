@@ -109,16 +109,16 @@ form {
 }
 
 #projects {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .card {
-  width: 250px;
-  margin:5px;
+  width: 275px;
+  margin: 5px;
+  margin-bottom: 100px;
 }
-
 
 /* section {
   display: flex;
@@ -147,19 +147,30 @@ border: 1px solid rgb(133, 133, 133);
   position:relative;
 } */
 
-
 .card h2 {
   flex: 1;
   font-size: 18px;
 }
 
-/* img .cov{
-  background-size: fill;
-} */
+.btn-grp {
+  display: flex;
+  justify-content: center;
+}
+
+.sl-btn {
+  justify-content: center;
+  margin: 3px;
+  width: 100px;
+}
+
+a .btn-hvr:hover {
+  color: beige;
+  transition: 0.3s;
+}
 
 .card-text {
   font-size: 13px;
-} 
+}
 
 /* FOOTER */
 footer {
