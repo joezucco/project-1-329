@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&display=swap');
 /* BOOTSTRAP NAV OVERRIDES */
 
 html {
@@ -14,9 +17,9 @@ html {
 }
 
 #brand {
-  font-family: "Archivo", sans-serif !important;
+  font-family: "Cormorant", serif !important;
   padding: 20px;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 #hamburger {
@@ -29,8 +32,8 @@ html {
 }
 .nav-link {
   color: rgb(44, 44, 44) !important;
-  font-family: "Archivo", sans-serif;
-  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0px;
   text-transform: lowercase;
   font-size: 20px;
   margin: 20px;
@@ -44,17 +47,18 @@ body {
     rgba(241, 203, 148, 1) 0%,
     rgba(207, 232, 200, 1) 100%
   );
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
 }
 
 #h1-body {
-  font-family: "Archivo", sans-serif;
+  font-family: "Cormorant", serif;
   text-align: center;
 }
 
 #abt {
-  font-family: "Archivo", sans-serif;
+  font-family: "Cormorant", serif;
+  font-size: 60px;
   text-align: center;
 }
 
