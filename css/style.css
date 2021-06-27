@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,700&display=swap');
 /* BOOTSTRAP NAV OVERRIDES */
 
 html {
@@ -17,15 +19,17 @@ html {
 }
 
 #brand {
-  font-family: "Cormorant", serif !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 900;
+  letter-spacing: 2px;
   padding: 20px;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 #hamburger {
-  background-color: springgreen !important;
+  background-color: rgb(248, 248, 248) !important;
   margin: 10px;
-  border: 1px solid rgb(255, 160, 116);
+  border: 1px solid rgb(224, 224, 224);
 }
 #navItems {
   padding: 0 !important;
@@ -52,18 +56,25 @@ body {
 }
 
 #h1-body {
-  font-family: "Cormorant", serif;
+  font-family: "Playfair", serif;
+  font-size: 45px;
+  font-weight: 500;
+  font-style: italic;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 #abt {
-  font-family: "Cormorant", serif;
-  font-size: 60px;
+  font-family: "Playfair", serif;
+  font-size: 45px;
+  font-weight: 500;
+  font-style: italic;
   text-align: center;
+
 }
 
 #i-know {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .container * {
@@ -99,13 +110,14 @@ article {
 }
 
 .prjx {
-  margin-bottom: 50px;
+  font-size: 36px;
+  margin-top: 40px;
 }
 
 form {
   display: flex;
   justify-content: center;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.2);
