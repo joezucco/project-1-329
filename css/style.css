@@ -4,11 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,700&display=swap");
-/* BOOTSTRAP NAV OVERRIDES */
 
 html {
   scroll-behavior: smooth;
-  /* height:100%; */
 }
 
 #headnav {
@@ -83,7 +81,6 @@ body {
 
 .container {
   display: flex;
-  /* justify-content: center; */
   max-width: 100%;
 }
 
@@ -165,9 +162,9 @@ form {
   border-radius: 4px;
   width: 400px;
   height: 35px;
-  color:white;
+  color: white;
   border: 1px solid rgb(190, 190, 190);
-  background-color:black;
+  background-color: black;
   box-shadow: 0 0px 2px 0.3px rgba(0, 0, 0, 0.1);
 }
 
@@ -190,33 +187,6 @@ form {
   justify-content: center;
   align-items: center;
 }
-
-/* section {
-  display: flex;
-
-  justify-content: space-around;
-  flex-wrap: wrap;
-  row-gap: 10px;
-  column-gap: 10px;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 80px;
-  border: 1px solid black;
-}  
-
-
-sl-card .card {
-display:flex;
-flex-wrap: wrap;
-  width: 20%;
-justify-content: space-around;
-border: 1px solid rgb(133, 133, 133);
-  margin: 10px;
-    width:270px;
-    height:434px;
-    align-items: center;
-  position:relative;
-} */
 
 .card h2 {
   flex: 1;
@@ -243,7 +213,6 @@ a .btn-hvr:hover {
   font-size: 13px;
 }
 
-/* FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
