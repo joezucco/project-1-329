@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Inter&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,700&display=swap");
 /* BOOTSTRAP NAV OVERRIDES */
 
 html {
@@ -70,7 +70,6 @@ body {
   font-weight: 500;
   font-style: italic;
   text-align: center;
-
 }
 
 #i-know {
@@ -116,11 +115,10 @@ article {
 
 form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.2);
   padding: 100px;
 }
 
@@ -134,6 +132,63 @@ form {
   width: 275px;
   margin: 5px;
   margin-bottom: 100px;
+}
+
+#ctf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  align-items: center;
+}
+
+#contactme {
+  background-color: white;
+  box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.2);
+}
+
+#fs-frm-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#input {
+  border-radius: 4px;
+  border: 1px solid rgb(190, 190, 190);
+  box-shadow: 0 0px 2px 0.3px rgba(0, 0, 0, 0.1);
+}
+
+.sbmt {
+  border-radius: 4px;
+  width: 400px;
+  height: 35px;
+  color:white;
+  border: 1px solid rgb(190, 190, 190);
+  background-color:black;
+  box-shadow: 0 0px 2px 0.3px rgba(0, 0, 0, 0.1);
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 400px;
+}
+
+.message {
+  font-family: "Playfair", serif;
+  font-size: 60px;
+  padding: 20px;
+}
+
+#ctcform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* section {
