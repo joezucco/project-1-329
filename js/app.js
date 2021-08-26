@@ -2,7 +2,7 @@
 // FETCH DATA FROM GOOGLE SHEETS
 /////////////////////////////////////////////////
 $.ajax(
-  "https://spreadsheets.google.com/feeds/list/1CZy5ARuZPmpNls7UiGMzUrNoBKb6aWbpNZcNUI6L6gI/1/public/full?alt=json"
+  "https://sheets.googleapis.com/v4/spreadsheets/1CZy5ARuZPmpNls7UiGMzUrNoBKb6aWbpNZcNUI6L6gI/values/Sheet1?alt=json&key=AIzaSyC6tYEsAXpmdEaoHBGxO_la4W0go0O1ZBU"
 )
   //.then for when the data when arrives
   .then((data) => {
