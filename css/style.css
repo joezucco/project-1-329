@@ -12,7 +12,6 @@ html {
 #headnav {
   display: flex;
   flex-direction: row;
-  background-color: rgb(247, 247, 247) !important;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.1);
@@ -27,7 +26,7 @@ html {
 }
 
 #hamburger {
-  background-color: rgb(248, 248, 248) !important;
+  background-color: 6c757dimportant;
   margin: 10px;
   border: 1px solid rgb(224, 224, 224);
 }
@@ -35,7 +34,7 @@ html {
   padding: 0 !important;
 }
 .nav-link {
-  color: rgb(44, 44, 44) !important;
+  color: rgb(255, 255, 255) !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0px;
   text-transform: lowercase;
@@ -48,13 +47,13 @@ body {
   grid-column: auto;
   max-width: 100%;
   background: rgb(245, 212, 166);
-  /* background: radial-gradient(
+  background: radial-gradient(
     circle,
-    rgba(241, 203, 148, 1) 0%,
-    rgba(207, 232, 200, 1) 100%
-  ); */
+    rgb(83, 83, 83) 0%,
+    rgb(0, 2, 32) 100%
+  );
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 #h1-body {
@@ -142,6 +141,7 @@ form {
   box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.2);
 }
 
+
 #ctf {
   font-style: italic;
   text-align: center;
@@ -149,7 +149,7 @@ form {
 
 
 #contactme {
-  background-color: white;
+  background-color: #212529;
   box-shadow: 0 0px 6px 0.3px rgba(0, 0, 0, 0.2);
   height: 600px;
   display: flex;
@@ -170,10 +170,14 @@ form {
   border-radius: 4px;
   width: 305px;
   height: 35px;
-  color: white;
-  border: 1px solid rgb(190, 190, 190);
-  background-color: black;
+  color: #f0f0f0;
+  border: 1px solid rgb(146, 146, 146);
+  background-color: #6c757d;
   box-shadow: 0 0px 2px 0.3px rgba(0, 0, 0, 0.1);
+}
+
+.sbmt:hover {
+  background-color: #656d75;
 }
 
 .form-style {
@@ -187,25 +191,28 @@ form {
 .message {
   font-family: "Playfair", serif;
   font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  display: flex;
 }
 
 .card h2 {
   flex: 1;
-  font-size: 18px;
+  font-size: 19px;
+  color: black;
+  text-align: center;
 }
 
-.sl-btn {
+button {
   margin: 3px;
   width: 100px;
 }
 
-a .btn-hvr:hover {
-  color: beige;
-  transition: 0.3s;
-}
-
 .card-text {
   font-size: 13px;
+  color: black;
 }
 
 footer {

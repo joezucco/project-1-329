@@ -21,10 +21,10 @@ class MyCard extends HTMLElement {
         <h2 slot="header">${name}</h2>
         <img src=${img} alt=${name} slot="image">
         <p class="card-text">${description}</p>
-        <sl-button-group class="btn-grp" slot="footer">
-          <a href=${git}><sl-button class="sl-btn">Git</sl-button></a>
-          <a href=${live}><sl-button class="sl-btn">Live</sl-button></a>
-        </sl-button-group>
+        <div class="btn-grp btn-group-lg" role="group" slot="footer">
+          <a href=${git}><button type="button" class="btn btn-secondary">Git</button></a>
+          <a href=${live}><button type="button" class="btn btn-secondary">Live</button></a>
+        </div>
         </sl-card>
         `;
   }
